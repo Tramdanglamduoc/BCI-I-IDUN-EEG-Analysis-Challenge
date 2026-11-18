@@ -1,0 +1,19 @@
+# data
+data/
+*.npy
+*.mat
+*.zip
+
+# model checkpoints
+TimeSeriesCNN*/
+*.pth
+
+# generated outputs
+submissions/
+loss_plot.png
+
+# python / jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
